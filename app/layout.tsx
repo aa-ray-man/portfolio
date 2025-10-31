@@ -10,6 +10,9 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Aryaman | Developer",
   description: "Portfoliio of an epic coder",
+  icons: {
+    icon: "/pfp-doodle.png",
+  },
 }
 
 export default function RootLayout({
